@@ -88,8 +88,8 @@
     }
     
     .logo {
-        font-size: 1.5rem;
-        font-weight: 550;
+        font-size: 1.3rem;
+        font-weight: 600;
         color: var(--text-color);
     }
     
@@ -340,13 +340,18 @@
       
       .project-card h3 {
         color: var(--text-color);
-        margin-bottom: 1rem;
+        font-weight: 450;
       }
       
       .project-content p {
         flex-grow: 1; /* Push tags to the bottom */
       }
       
+      .project-content h3 {
+        font-size: 1.5rem;
+      }
+      
+
       .tags {
         display: flex;
         flex-wrap: wrap;
@@ -441,6 +446,11 @@
     cursor: pointer;
     }
     
+    .cert-title a:hover {
+        color: inherit; /* Inherit the color from the parent element */
+        text-decoration: none; /* Remove the underline */
+      }
+      
     /* Contact Section */
     .contact {
         background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
