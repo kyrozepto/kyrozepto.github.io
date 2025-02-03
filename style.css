@@ -614,8 +614,17 @@ cursor: pointer;
     .hero-split h2 {
         display: none;
     }
+    .location {
+        display: none;
+    }
     .logo {
         font-size: 1.1rem;
+    }
+    .left-side img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
     }
 }
 
