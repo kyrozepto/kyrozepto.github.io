@@ -621,8 +621,8 @@ cursor: pointer;
         font-size: 1.1rem;
     }
     .left-side img {
-        width: 160px;
-        height: 160px;
+        width: 150px;
+        height: 150px;
         object-fit: cover;
         border-radius: 50%;
     }
@@ -641,6 +641,9 @@ cursor: pointer;
     }
     .hero-content h2 {
         font-size: 1.8rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
     }
     .section-title {
         font-size: 2rem;
